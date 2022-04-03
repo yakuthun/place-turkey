@@ -1,15 +1,14 @@
+// ==UserScript==
 // @name         Turkey! Logo template
 // @namespace    http://tampermonkey.net/
 // @version      0.3
-// @description  try to take over the canvas!
+// @description   Düzenleme isteyenler DC: Cavalera#8739 - yakuthun - http://github.com/yakuthun
 // @author       oralekin, LittleEndu, ekgame
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
-// @contact      Düzenleme isteyenler DC: Cavalera#8739
-//arrangement    yakuthun
-//@github        http://github.com/yakuthun
 
+// ==/UserScript==
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
        
