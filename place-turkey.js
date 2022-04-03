@@ -13,7 +13,7 @@
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
        
-        const image = document.createElement("/flag.png");
+        const image = document.createElement("https://raw.githubusercontent.com/yakuthun/place-turkey/master/flag.png");
         image.src = "";
         image.onload = () => {
             image.style = `position: absolute; left: 0; top: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
